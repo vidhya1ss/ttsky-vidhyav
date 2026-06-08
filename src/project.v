@@ -20,10 +20,9 @@ module tt_um_example (
             acc <= acc + (ui_in * uio_in);
     end
 
-    assign uo_out = acc[7:0];
-
-    assign uio_out = 8'b0;
-    assign uio_oe  = 8'b0;
+    assign uo_out  = acc[7:0];
+    assign uio_out = 8'h00;
+    assign uio_oe  = 8'h00;
 
     wire _unused = &{1'b0, acc[15:8]};
 
