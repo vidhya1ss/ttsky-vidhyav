@@ -15,7 +15,7 @@ project:
     - "project.v"
 
 pinout:
-  # Inputs
+  # Inputs.
   ui[0]: "Operand A bit 0"
   ui[1]: "Operand A bit 1"
   ui[2]: "Operand A bit 2"
