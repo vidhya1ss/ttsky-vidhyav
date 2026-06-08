@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "SMAC Unit"
-  author:       "V. Vidhya"
+  author:       "V Vidhya"
   discord:      ""
   description:  "8-bit Serial Multiply-Accumulate (SMAC) unit for DSP and neural network applications"
   language:     "Verilog"
