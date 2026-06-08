@@ -21,7 +21,7 @@ module tb;
 `endif
 
     // Instantiate DUT
-    tt_um_smac dut (
+    tt_um_example dut (
 `ifdef GL_TEST
         .VPWR(VPWR),
         .VGND(VGND),
