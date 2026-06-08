@@ -24,8 +24,6 @@ module tt_um_example (
     assign uio_out = 8'h00;
     assign uio_oe  = 8'h00;
 
-    wire _unused = &{1'b0, acc[15:8]};
-
 endmodule
 
 `default_nettype wire
